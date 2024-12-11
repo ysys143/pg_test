@@ -42,9 +42,9 @@ show(results)
 
 # 벡터 검색
 test_vec = np.random.randn(1,5)
-str_test_vec = test_vec.squeeze().tolist()
+test_vec_list = test_vec.squeeze().tolist()
 
-cursor.execute("SELECT * FROM vectors ORDER BY embedding <-> '{}' LIMIT 5".format(str_test_vec))
+cursor.execute("SELECT * FROM vectors ORDER BY embedding <-> '{}' LIMIT 5".format(test_vec_list))
 print('\nRetrieved Rows:')
 results = cursor.fetchall()
 show(results)
