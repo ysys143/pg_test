@@ -18,4 +18,3 @@ vector.explain_analyze_query(query)
 vector.get_conn()
 
 vector.close()
-
