@@ -1,0 +1,351 @@
+[33mWARNING[0m:  [16-12-2024 17:19:50] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [16-12-2024 17:19:50] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component System
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component SqliteDB
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component Posthog
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component LocalExecutor
+[36mDEBUG[0m:    [16-12-2024 17:19:50] Starting component SegmentAPI
+[32mINFO[0m:     [16-12-2024 17:19:50] Started server process [[36m75486[0m]
+[32mINFO[0m:     [16-12-2024 17:19:50] Waiting for application startup.
+[32mINFO[0m:     [16-12-2024 17:19:50] Application startup complete.
+[32mINFO[0m:     [16-12-2024 17:19:50] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [16-12-2024 17:19:57] ::1:60470 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [16-12-2024 17:19:58] ::1:60470 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [16-12-2024 17:20:26] ::1:60470 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [16-12-2024 17:20:32] ::1:60470 - "GET /docs HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:20:32] ::1:60470 - "GET /openapi.json HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:22:01] Shutting down
+[32mINFO[0m:     [16-12-2024 17:22:01] Waiting for application shutdown.
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component System
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component SegmentAPI
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component LocalExecutor
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component Posthog
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component SqliteDB
+[36mDEBUG[0m:    [16-12-2024 17:22:01] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [16-12-2024 17:22:01] Application shutdown complete.
+[32mINFO[0m:     [16-12-2024 17:22:01] Finished server process [[36m75486[0m]
+[33mWARNING[0m:  [16-12-2024 17:23:01] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [16-12-2024 17:23:01] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component System
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component SqliteDB
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component Posthog
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component LocalExecutor
+[36mDEBUG[0m:    [16-12-2024 17:23:01] Starting component SegmentAPI
+[32mINFO[0m:     [16-12-2024 17:23:01] Started server process [[36m75610[0m]
+[32mINFO[0m:     [16-12-2024 17:23:01] Waiting for application startup.
+[32mINFO[0m:     [16-12-2024 17:23:01] Application startup complete.
+[32mINFO[0m:     [16-12-2024 17:23:01] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [16-12-2024 17:23:07] ::1:60497 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:23:07] ::1:60498 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:23:07] ::1:60498 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:23:11] ::1:60501 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [16-12-2024 17:29:11] ::1:60552 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:29:11] ::1:60552 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:29:11] ::1:60552 - "GET /api/v2/tenants/default_tenant/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:29:11] ::1:60552 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:29:11] ::1:60552 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [16-12-2024 17:29:11] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [16-12-2024 17:29:11] ::1:60552 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/e96ea164-221a-4f48-822a-97bc776e184c/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 17:30:27] ::1:60576 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:30:27] ::1:60577 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:30:27] ::1:60577 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:34:37] ::1:60631 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [16-12-2024 17:37:32] ::1:60691 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [16-12-2024 17:37:42] ::1:60693 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [16-12-2024 17:38:20] ::1:60701 - "GET /api/v2/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:38:54] ::1:60703 - "GET /api/v2/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:38:55] ::1:60703 - "GET /api/v2/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:38:56] ::1:60703 - "GET /api/v2/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:38:57] ::1:60703 - "GET /api/v2/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:38:58] ::1:60703 - "GET /api/v2/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:39:30] ::1:60711 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:39:36] ::1:60713 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [16-12-2024 17:39:50] ::1:60716 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:39:58] ::1:60719 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:40:12] ::1:60722 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/test HTTP/1.1" 400
+[32mINFO[0m:     [16-12-2024 17:40:18] ::1:60726 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:40:54] ::1:60735 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/collection_test HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:41:10] ::1:60738 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [16-12-2024 17:41:20] ::1:60741 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:41:33] ::1:60743 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:41:35] ::1:60743 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 400
+[32mINFO[0m:     [16-12-2024 17:41:43] ::1:60746 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 400
+[32mINFO[0m:     [16-12-2024 17:41:51] ::1:60747 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 400
+[32mINFO[0m:     [16-12-2024 17:41:52] ::1:60747 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:41:57] ::1:60747 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:42:18] ::1:60757 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:43:22] ::1:60765 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/test HTTP/1.1" 400
+[32mINFO[0m:     [16-12-2024 17:44:29] ::1:60781 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:44:29] ::1:60781 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 400
+[36mDEBUG[0m:    [16-12-2024 17:44:38] Collection test already exists, returning existing collection.
+[32mINFO[0m:     [16-12-2024 17:44:38] ::1:60783 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:44:38] ::1:60783 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/test HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:45:35] ::1:60797 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:45:39] ::1:60797 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:45:39] ::1:60797 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:45:42] ::1:60797 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:45:52] ::1:60801 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [16-12-2024 17:45:59] ::1:60805 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/my_collection HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:45:59] ::1:60805 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:46:13] ::1:60811 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:46:18] ::1:60816 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:46:22] ::1:60816 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:47:25] ::1:60823 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/8613b352-ca7e-48e8-a9c1-9ef93e2144d3/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:47:25] ::1:60823 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/8613b352-ca7e-48e8-a9c1-9ef93e2144d3/count HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:47:25] ::1:60823 - "PUT /api/v2/tenants/default_tenant/databases/default_database/collections/8613b352-ca7e-48e8-a9c1-9ef93e2144d3 HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:47:31] ::1:60826 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:48:20] ::1:60835 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/8613b352-ca7e-48e8-a9c1-9ef93e2144d3/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:48:20] ::1:60835 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/8613b352-ca7e-48e8-a9c1-9ef93e2144d3/count HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:48:20] ::1:60835 - "PUT /api/v2/tenants/default_tenant/databases/default_database/collections/8613b352-ca7e-48e8-a9c1-9ef93e2144d3 HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:48:31] ::1:60837 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/8613b352-ca7e-48e8-a9c1-9ef93e2144d3/count HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:49:23] ::1:60846 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:49:48] ::1:60855 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [16-12-2024 17:52:25] ::1:60873 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [16-12-2024 17:52:25] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [16-12-2024 17:52:25] ::1:60873 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/8537fe7f-160a-4c78-909e-d8d5ee8f5d86/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 17:52:45] ::1:60880 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/8537fe7f-160a-4c78-909e-d8d5ee8f5d86/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:52:57] ::1:60883 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/8537fe7f-160a-4c78-909e-d8d5ee8f5d86/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:53:33] ::1:60890 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/8537fe7f-160a-4c78-909e-d8d5ee8f5d86/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:54:02] ::1:60896 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/8537fe7f-160a-4c78-909e-d8d5ee8f5d86/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:55:58] ::1:60909 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:57:05] ::1:60921 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/collection_name HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:57:13] ::1:60923 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/test HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:58:43] ::1:60938 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:58:44] ::1:60938 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [16-12-2024 17:58:47] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [16-12-2024 17:58:47] ::1:60938 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 17:58:49] ::1:60938 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 17:58:51] ::1:60938 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:01:11] ::1:60961 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 500
+[32mINFO[0m:     [16-12-2024 18:02:06] ::1:60972 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [16-12-2024 18:02:16] ::1:60979 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [16-12-2024 18:02:19] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [16-12-2024 18:02:19] ::1:60979 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/3deceed7-b561-43f3-8bf4-821793a2b72d/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:02:29] ::1:60981 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/3deceed7-b561-43f3-8bf4-821793a2b72d/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:07:11] ::1:61129 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:08:49] ::1:61141 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 500
+[32mINFO[0m:     [16-12-2024 18:08:57] ::1:61143 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/3deceed7-b561-43f3-8bf4-821793a2b72d/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:09:43] ::1:61156 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/3deceed7-b561-43f3-8bf4-821793a2b72d/get HTTP/1.1" 200
+[33mWARNING[0m:  [16-12-2024 18:13:09] Insert of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:13:09] Insert of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:13:09] Insert of existing embedding ID: id3
+[33mWARNING[0m:  [16-12-2024 18:13:09] Add of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:13:09] Add of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:13:09] Add of existing embedding ID: id3
+[32mINFO[0m:     [16-12-2024 18:13:09] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:13:12] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:13:13] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:13:14] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:13:14] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:13:15] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:13:17] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[33mWARNING[0m:  [16-12-2024 18:13:22] Insert of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:13:22] Insert of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:13:22] Insert of existing embedding ID: id3
+[33mWARNING[0m:  [16-12-2024 18:13:22] Add of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:13:22] Add of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:13:22] Add of existing embedding ID: id3
+[32mINFO[0m:     [16-12-2024 18:13:22] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:13:24] ::1:61182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[33mWARNING[0m:  [16-12-2024 18:13:30] Insert of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:13:30] Insert of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:13:30] Insert of existing embedding ID: id3
+[33mWARNING[0m:  [16-12-2024 18:13:30] Add of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:13:30] Add of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:13:30] Add of existing embedding ID: id3
+[32mINFO[0m:     [16-12-2024 18:13:30] ::1:61194 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:13:33] ::1:61194 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:13:40] ::1:61196 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[33mWARNING[0m:  [16-12-2024 18:14:04] Insert of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:14:04] Insert of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:14:04] Insert of existing embedding ID: id3
+[33mWARNING[0m:  [16-12-2024 18:14:04] Add of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:14:04] Add of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:14:04] Add of existing embedding ID: id3
+[32mINFO[0m:     [16-12-2024 18:14:04] ::1:61202 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:14:05] ::1:61202 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[33mWARNING[0m:  [16-12-2024 18:14:24] Insert of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:14:24] Insert of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:14:24] Insert of existing embedding ID: id3
+[33mWARNING[0m:  [16-12-2024 18:14:24] Add of existing embedding ID: id1
+[33mWARNING[0m:  [16-12-2024 18:14:24] Add of existing embedding ID: id2
+[33mWARNING[0m:  [16-12-2024 18:14:24] Add of existing embedding ID: id3
+[32mINFO[0m:     [16-12-2024 18:14:24] ::1:61211 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:14:27] ::1:61211 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:14:30] ::1:61211 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:14:56] ::1:61215 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:14:57] ::1:61215 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/624e3e51-c0c7-4666-8904-100c6954e411/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:15:45] ::1:61226 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:16:37] ::1:61232 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/manual HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:16:40] ::1:61232 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:16:55] ::1:61235 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/test HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:17:31] ::1:61243 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:17:40] ::1:61244 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:17:41] ::1:61244 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [16-12-2024 18:17:50] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [16-12-2024 18:17:50] ::1:61248 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5a823f1f-b53a-4607-b8f1-c98d8147f6db/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:17:52] ::1:61248 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5a823f1f-b53a-4607-b8f1-c98d8147f6db/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:17:57] ::1:61248 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5a823f1f-b53a-4607-b8f1-c98d8147f6db/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:18:14] ::1:61260 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5a823f1f-b53a-4607-b8f1-c98d8147f6db/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:18:21] ::1:61263 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5a823f1f-b53a-4607-b8f1-c98d8147f6db/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:25:35] ::1:61319 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:26:20] ::1:61325 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:26:23] ::1:61325 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:27:15] ::1:61335 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/003d57be-196e-4b9f-9dad-e0fe23f3392c/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:27:21] ::1:61337 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/003d57be-196e-4b9f-9dad-e0fe23f3392c/count HTTP/1.1" 200
+[31mERROR[0m:    [16-12-2024 18:27:28] UNIQUE constraint failed: collections.name, collections.database_id
+Traceback (most recent call last):
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 106, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 124, in receive
+    return receiver.item
+           ^^^^^^^^^^^^^
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 157, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 126, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 107, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 163, in call_next
+    raise app_exc
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 185, in __call__
+    with collapse_excgroups():
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 131, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 163, in call_next
+    raise app_exc
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 134, in async_wrapper
+    return await f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 734, in update_collection
+    await to_thread.run_sync(
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 726, in process_update_collection
+    return self._api._modify(
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 150, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/api/segment.py", line 103, in wrapper
+    return self._rate_limit_enforcer.rate_limit(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/rate_limit/simple_rate_limit/__init__.py", line 23, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/api/segment.py", line 369, in _modify
+    self._sysdb.update_collection(id, name=new_name)
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 150, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/jaesolshin/Documents/GitHub/pg_test/pg_venv/lib/python3.12/site-packages/chromadb/db/mixins/sysdb.py", line 654, in update_collection
+    result = cur.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: collections.name, collections.database_id
+[32mINFO[0m:     [16-12-2024 18:27:28] ::1:61352 - "PUT /api/v2/tenants/default_tenant/databases/default_database/collections/003d57be-196e-4b9f-9dad-e0fe23f3392c HTTP/1.1" 500
+[32mINFO[0m:     [16-12-2024 18:28:16] ::1:61371 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:28:20] ::1:61373 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/test HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:28:22] ::1:61373 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/mytest HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:28:31] ::1:61374 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:28:42] ::1:61378 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/12d57857-9d29-49b4-b4a4-b19a9d9352de/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:28:43] ::1:61378 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/12d57857-9d29-49b4-b4a4-b19a9d9352de/count HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:29:04] ::1:61384 - "PUT /api/v2/tenants/default_tenant/databases/default_database/collections/12d57857-9d29-49b4-b4a4-b19a9d9352de HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:29:17] ::1:61387 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:29:31] ::1:61389 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/mytest HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:29:35] ::1:61389 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:29:36] ::1:61389 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [16-12-2024 18:29:46] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [16-12-2024 18:29:46] ::1:61393 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/cdf74fde-e31a-4fa9-8cf7-13dd52a9f167/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:29:47] ::1:61393 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/cdf74fde-e31a-4fa9-8cf7-13dd52a9f167/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:29:48] ::1:61393 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/cdf74fde-e31a-4fa9-8cf7-13dd52a9f167/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:29:56] ::1:61396 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/cdf74fde-e31a-4fa9-8cf7-13dd52a9f167/count HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:30:02] ::1:61398 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/cdf74fde-e31a-4fa9-8cf7-13dd52a9f167/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:30:03] ::1:61398 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/cdf74fde-e31a-4fa9-8cf7-13dd52a9f167/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:30:07] ::1:61398 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:30:29] ::1:61406 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:30:52] ::1:61413 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/manual HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:30:58] ::1:61415 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:31:12] ::1:61419 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [16-12-2024 18:31:18] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [16-12-2024 18:31:18] ::1:61421 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/00c48411-a269-45b3-8a40-d1d7f89b8aa6/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:31:20] ::1:61421 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/00c48411-a269-45b3-8a40-d1d7f89b8aa6/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:31:24] ::1:61421 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/00c48411-a269-45b3-8a40-d1d7f89b8aa6/add HTTP/1.1" 201
+[32mINFO[0m:     [16-12-2024 18:31:26] ::1:61421 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/00c48411-a269-45b3-8a40-d1d7f89b8aa6/get HTTP/1.1" 200
+[32mINFO[0m:     [16-12-2024 18:31:38] ::1:61433 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/00c48411-a269-45b3-8a40-d1d7f89b8aa6/count HTTP/1.1" 200
